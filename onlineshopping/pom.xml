@@ -13,6 +13,13 @@
 		<spring.version>4.3.6.RELEASE</spring.version>
 	</properties>
 	<dependencies>
+		<!-- Link a Back end project with the front end project -->
+		<dependency>
+			<groupId>net.kzn</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<!-- JAVA EE API -->
 		<dependency>
 			<groupId>javax</groupId>
